@@ -9,4 +9,6 @@ public class Player {
         name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
     }
+
+    public String getName() { return name; }
 }
