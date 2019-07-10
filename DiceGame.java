@@ -17,6 +17,12 @@ public class DiceGame {
 
         var total = die1.getFaceValue() + die2.getFaceValue();
         System.out.println( "Total value: " +  total);
+
+        if( total > 7 ) {
+            System.out.println("You won");
+        } else {
+            System.out.println("You lost");
+        }
     }
 
     public static void main(String[] args) {
